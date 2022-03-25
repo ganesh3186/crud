@@ -1,0 +1,26 @@
+<form [formGroup]="signupForm" (ngSubmit)="signUp()"> 
+    <div id="login-box">
+    <div class="left">
+      <h1>Sign up</h1>
+      
+      <input type="text" formControlName="fullname"  placeholder="Full name" required/>
+      <input type="text" formControlName="mobile"  placeholder="Mobile Number" required/>
+      <input type="email" formControlName="email"  placeholder="E-mail" required/>
+      <input type="text" formControlName="password"  placeholder="password"  required/>
+      
+      <input type="submit" name="signup_submit" value="Sign up" />
+     
+    </div>
+    
+    <div class="right">
+      <span class="loginwith">Sign in with<br />social network</span>
+      
+      <button class="social-signin facebook">Log in with facebook</button>
+      <button class="social-signin twitter">Log in with Twitter</button>
+      <button class="social-signin google">Log in with Google+</button>
+      <button class="social-signin login" routerLink="/login">Log in </button>
+    </div>
+    <div class="or">OR</div>
+    
+  </div>
+</form>

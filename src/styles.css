@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+  }
+  ul {
+    list-style: none;
+  }
+  .nav-bar {
+    background-color: #343a40;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+  }
+  .nav-bar a {
+    color: white;
+  }
+  .top-nav li {
+    display: inline-block;
+    padding: 15px 15px 15px 0px;
+  }
+  .title {
+    display: flex;
+    padding-left: 15px;
+    font-size: 20px;
+    font-family:Georgia, serif;;
+  }
+  .wrraper {
+    display: flex;
+  }
+  .left-content {
+    background-color: #f8f9fa;
+    flex: 3;
+    min-height: 90vh;
+  }
+  .side-menu {
+    margin-top: 20px;
+  }
+  .side-menu li {
+    border-bottom: dashed 1px #a9b0b8;
+  }
+  .side-menu a {
+    display: block;
+    padding: 10px 15px;
+    color: #343a40;
+    text-decoration: none;
+  }
+  .right-content {
+    padding: 20px;
+    flex: 9;
+  }
+  table {
+    width: 100%;
+    max-width: 100%;
+    background-color: transparent;
+    border-collapse: collapse;
+    border-top: 1px solid #dee2e6;
+    border-left: 1px solid #dee2e6;
+  }
+  table thead th {
+    vertical-align: bottom;
+  }
+  
+  td,
+  th {
+    padding: 0.3rem;
+    border-bottom: 1px solid #dee2e6;
+    border-right: 1px solid #dee2e6;
+  }
+  table td,
+  table th {
+    padding: 0.75rem;
+    vertical-align: top;
+  }
+  .btn,
+  button {
+    display: inline-block;
+    background: #1b70cc;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+    border: none;
+  }
+  .btn-del {
+    background: #dc3545;
+  }
+  form {
+    max-width: 450px;
+    width: 100%;
+    margin: auto;
+  }
+  label {
+    display: block;
+    font-size: 18px;
+    margin-top: 15px;
+    line-height: 30px;
+  }
+  input {
+    display: block;
+    width: 100%;
+    height: 35px;
+    border: turquoise 2px dashed;
+    margin-bottom: 10px;
+    padding-left: 10px;
+  }
+  
+  
+  .option-nav{
+    display:flex;
+    margin-left: -750px;
+    
+  }
+  .option-nav li{
+      
+    padding: 15px;
+  }
+
+
+
+
+  /*login page*/
+  * {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15vh;
+    box-shadow: 5px 5px 10px rgb(0,0,0,0.3);
+}
+h1 {
+    letter-spacing: 1.5vw;
+    font-family: 'system-ui';
+    text-transform: uppercase;
+    text-align: center;
+}
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75vh;
+    width: 100%;
+    background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Mountains-1412683.svg/1280px-Mountains-1412683.svg.png) no-repeat center center;
+    background-size: cover;
+}
+.form_class {
+    width: 500px;
+    padding: 40px;
+    border-radius: 8px;
+    background-color: white;
+    font-family: 'system-ui';
+    box-shadow: 5px 5px 10px rgb(0,0,0,0.3);
+}
+.form_div {
+    text-transform: uppercase;
+}
+.form_div > label {
+    letter-spacing: 3px;
+    font-size: 1rem;
+}
+.info_div {
+    text-align: center;
+    margin-top: 20px;
+}
+.info_div {
+    letter-spacing: 1px;
+}
+.field1_class {
+    width: 100%;
+    border-radius: 6px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px 0px;
+    text-indent: 6px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: 'system-ui';
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+}
+.submit_class {
+    border-style: none;
+    border-radius: 5px;
+    background-color: #f16e0f;
+    padding: 8px 20px;
+    font-family: 'system-ui';
+    text-transform: uppercase;
+    letter-spacing: .8px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    box-shadow: 2px 2px 5px rgb(0,0,0,0.2);
+    
+}
+
+footer {
+    height: 10vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: -5px -5px 10px rgb(0,0,0,0.3);
+}
+footer > p {
+    text-align: center;
+    font-family: 'system-ui';
+    letter-spacing: 3px;
+}
+footer > p > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+
